@@ -29,6 +29,8 @@ jobs:
         with:
           name: build_directory
           path: build_directory.tar
+        env:
+          ACTIONS_STEP_DEBUG: true
 
   stage2:
     name: Build stage 2
